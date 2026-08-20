@@ -1,3 +1,15 @@
+/*
+ * Copyright (C) dea - https://github.com/girlglock/girlglock
+ * Modified version, August 2026: personal data replaced.
+ *
+ * This program is free software: you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the
+ * Free Software Foundation, either version 3 of the License, or (at your
+ * option) any later version. See LICENSE.
+ *
+ * Windows 7 styling by 7.css (MIT) - https://github.com/khang-nd/7.css
+ */
+
 const ICONS = 'https://win98icons.alexmeub.com/icons/png/';
 const ic = name => ICONS + name + '.png';
 
