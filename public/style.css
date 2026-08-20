@@ -239,7 +239,7 @@ body {
     left: 0;
     right: 0;
     margin: auto;
-    background-image: url('images/start-orb.svg');
+    background-image: url('images/start-orb.png');
     background-size: var(--start-size, 80px) var(--start-size-3x, 240px);
     background-repeat: no-repeat;
     transition: opacity 0.2s ease !important;
