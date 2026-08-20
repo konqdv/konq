@@ -26,8 +26,9 @@ const CONFIG = {
         startScale: 1.75,
     },
     desktopIcons: [
-        { label: 'music bot discord', url: 'https://github.com/konqdv/simple-music-bot', icon: 'images/music-bot.svg' },
-        { label: 'yt', url: 'https://www.youtube.com/@konqdie', icon: 'images/yt.svg' },
+        { label: 'music bot discord', url: 'https://github.com/konqdv/simple-music-bot', icon: `https://github.com/bartekl1/windows-ui-assets/raw/main/Icons/Windows%207/ico/shell32.dll/ICON43_1.ico` },
+        // Provisional: apunta a YouTube hasta que exista una página de clips propia.
+        { label: 'clips', url: 'https://www.youtube.com/@konqdie', icon: `https://github.com/bartekl1/windows-ui-assets/raw/main/Icons/Windows%207/ico/imageres.dll/ICON23_1.ico` },
     ],
     layout: [
         ['win-about', 'win-gear'],
@@ -52,8 +53,9 @@ const CONFIG = {
         socials: [
             { label: 'GitHub', url: 'https://github.com/konqdv', icon: 'https://github.githubassets.com/favicons/favicon-dark.png' },
             { label: 'Twitter', url: 'https://twitter.com/konqbtw', icon: 'https://cdn-icons-png.flaticon.com/128/733/733579.png' },
-            { label: 'TikTok', url: 'https://tiktok.com/@konqg', icon: 'https://www.tiktok.com/favicon.ico' },
+            { label: 'TikTok', url: 'https://tiktok.com/@konqg', icon: 'https://www.google.com/s2/favicons?domain=tiktok.com&sz=32' },
             { label: 'Twitch', url: 'https://twitch.tv/koonq_', icon: 'https://static.twitchcdn.net/assets/favicon-32-e29e246c157142c94346.png' },
+            { label: 'YouTube', url: 'https://www.youtube.com/@konqdie', icon: 'images/yt.svg' },
             { label: 'Steam', url: 'https://steamcommunity.com/profiles/76561197973242470', icon: 'https://steamcommunity.com/favicon.ico' },
         ],
     },

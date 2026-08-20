@@ -3,6 +3,10 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* `output: "standalone"` se eliminó a propósito: es para despliegues
    * autogestionados (Docker). Vercel gestiona el empaquetado por su cuenta. */
+
+  // Evita que Next regenere AGENTS.md y CLAUDE.md en cada arranque.
+  agentRules: false,
+
   async rewrites() {
     return {
       // Serve the static desktop site from public/index.html at the root,
